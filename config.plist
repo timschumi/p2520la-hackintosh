@@ -8,6 +8,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-BATT.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-BATT.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-PNLF.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -163,6 +171,244 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data>AAAAAA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename FBST</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RkJTVAQ=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WEJTVAQ=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename CBST</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>Q0JTVAA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WEJTMgA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename _BIX</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X0JJWAA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WEJJWAA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename BIF0</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>QklGMAA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WElGMAA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename BIF1</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>QklGMQA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WElGMQA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename BIF2</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>QklGMgA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WElGMgA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename BIF3</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>QklGMwA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WElGMwA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename BIF4</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>QklGNAA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WElGNAA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename BIFA</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>QklGQQA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WElGQQA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename BSTS</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>QlNUUwA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WFNUUwA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename TACH</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>VEFDSAk=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WEFDSAk=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename BCRT</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>QkNSVAA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WENSVAA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename BRCP</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>QlJDUAA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WFJDUAA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename BVOT</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>QlZPVAA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WFZPVAA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename SMBR</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>U01CUgs=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WE1CUgs=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename SMBW</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>U01CVw0=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WE1CVw0=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BATT: Rename ECSB</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RUNTQgc=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>WENTQgc=</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -388,6 +634,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCSuperIO</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>SMCBatteryManager.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCBatteryManager</string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
