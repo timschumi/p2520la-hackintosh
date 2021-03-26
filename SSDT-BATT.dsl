@@ -10,8 +10,6 @@ DefinitionBlock("", "SSDT", 2, "hack", "batt", 0)
     External(_SB.PCI0.BAT0.PUNT, IntObj)
     External(_SB.PCI0.LPCB, DeviceObj)
     External(_SB.PCI0.LPCB.EC0, DeviceObj)
-    External(BRAI, MethodObj) // ?
-    External(BRAD, MethodObj) // ?
     External(_SB.PCI0.BAT0.LFCC, IntObj)
     External(MBLF, IntObj)
     External(_SB.PCI0.BAT0.PBST, PkgObj)
@@ -95,6 +93,13 @@ DefinitionBlock("", "SSDT", 2, "hack", "batt", 0)
             {
                 Offset (0x04),
                 T2B0,8,T2B1,8,
+            }
+
+            OperationRegion (XRAM, SystemIO, 0x025A, 0x02)
+            Field (XRAM, ByteAcc, Lock, Preserve)
+            {
+                BRAI,   8,
+                BRAD,   8
             }
 
             IndexField (BRAI, BRAD, ByteAcc, NoLock, Preserve)
