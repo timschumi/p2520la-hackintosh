@@ -185,10 +185,6 @@
 			<key>Enabled</key>
 			<false/>
 		</dict>
-		<key>Hide</key>
-		<array>
-			<string>Preboot</string>
-		</array>
 		<key>Custom</key>
 		<dict>
 			<key>Entries</key>
