@@ -177,6 +177,8 @@
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
 		<string>kext-dev-mode=1 dart=0 nv_disable=1 -cdfon -igfxnohdmi</string>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -449,12 +451,12 @@
 			<key>ATI</key>
 			<true/>
 			<key>Intel</key>
-			<false/>
+			<true/>
 			<key>NVidia</key>
 			<true/>
 		</dict>
 		<key>ig-platform-id</key>
-		<string>0x123456789</string>
+		<string>0x16260006</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
